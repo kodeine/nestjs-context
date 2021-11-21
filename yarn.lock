@@ -475,7 +475,7 @@
     "tslib" "~2.2.0"
     "value-or-promise" "1.0.6"
 
-"@graphql-tools/schema@^8.0.0", "@graphql-tools/schema@^8.3.1":
+"@graphql-tools/schema@^8.0.0":
   "integrity" "sha512-3R0AJFe715p4GwF067G5i0KCr/XIdvSfDLvTLEiTDQ8V/hwbOHEKHKWlEBHGRQwkG5lwFQlW1aOn7VnlPERnWQ=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/schema/-/schema-8.3.1.tgz"
   "version" "8.3.1"
@@ -486,6 +486,16 @@
     "value-or-promise" "1.0.11"
 
 "@graphql-tools/schema@^8.2.0":
+  "integrity" "sha512-3R0AJFe715p4GwF067G5i0KCr/XIdvSfDLvTLEiTDQ8V/hwbOHEKHKWlEBHGRQwkG5lwFQlW1aOn7VnlPERnWQ=="
+  "resolved" "https://registry.npmjs.org/@graphql-tools/schema/-/schema-8.3.1.tgz"
+  "version" "8.3.1"
+  dependencies:
+    "@graphql-tools/merge" "^8.2.1"
+    "@graphql-tools/utils" "^8.5.1"
+    "tslib" "~2.3.0"
+    "value-or-promise" "1.0.11"
+
+"@graphql-tools/schema@^8.3.1":
   "integrity" "sha512-3R0AJFe715p4GwF067G5i0KCr/XIdvSfDLvTLEiTDQ8V/hwbOHEKHKWlEBHGRQwkG5lwFQlW1aOn7VnlPERnWQ=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/schema/-/schema-8.3.1.tgz"
   "version" "8.3.1"
@@ -772,11 +782,6 @@
     "path-to-regexp" "3.2.0"
     "tslib" "2.3.1"
     "uuid" "8.3.2"
-
-"@nestjs/cqrs@*":
-  "integrity" "sha512-6Fy0jgUZatRXirfAhDVy3Du2UYoBLrlT7yjK4ZX3L7rBMdfTYPqmn8wE2JH3kXW3yUqLDdnS9PotHf6Y0UzLxw=="
-  "resolved" "https://registry.npmjs.org/@nestjs/cqrs/-/cqrs-8.0.0.tgz"
-  "version" "8.0.0"
 
 "@nestjs/graphql@9.1.1":
   "integrity" "sha512-NHMR+VRHFeHBa8/ACy9RnyMVv/581VvXDWenpPFW5RFnZiy4aNeUDCv6sdCh/EydE4CpWzmdliuUei+NrlLWEQ=="
@@ -1624,7 +1629,7 @@
   dependencies:
     "lru-cache" "^6.0.0"
 
-"apollo-server-core@^3.5.0":
+"apollo-server-core@^3.0.0", "apollo-server-core@^3.5.0":
   "integrity" "sha512-c3wEnPSnzvWvYvRJq1B+yIpa+vBvm0kq0tvD4j/IOw/F1s3sadu43Xr4FiLw++UfeLyh3aS5Wk68hjvrW1ceiQ=="
   "resolved" "https://registry.npmjs.org/apollo-server-core/-/apollo-server-core-3.5.0.tgz"
   "version" "3.5.0"
@@ -5599,7 +5604,16 @@
   dependencies:
     "xmlchars" "^2.2.0"
 
-"schema-utils@^3.1.0", "schema-utils@^3.1.1":
+"schema-utils@^3.1.0":
+  "integrity" "sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw=="
+  "resolved" "https://registry.npmjs.org/schema-utils/-/schema-utils-3.1.1.tgz"
+  "version" "3.1.1"
+  dependencies:
+    "@types/json-schema" "^7.0.8"
+    "ajv" "^6.12.5"
+    "ajv-keywords" "^3.5.2"
+
+"schema-utils@^3.1.1":
   "integrity" "sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw=="
   "resolved" "https://registry.npmjs.org/schema-utils/-/schema-utils-3.1.1.tgz"
   "version" "3.1.1"
@@ -6444,12 +6458,12 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
-"typescript@*", "typescript@^3.4.5 || ^4.3.5", "typescript@^4.3.4", "typescript@>=2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=3.8 <5.0":
+"typescript@*", "typescript@^3.4.5 || ^4.3.5", "typescript@^4.3.4", "typescript@>= 2.7", "typescript@>=2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=3.8 <5.0":
   "integrity" "sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.5.2.tgz"
   "version" "4.5.2"
 
-"typescript@>= 2.7", "typescript@4.3.5":
+"typescript@4.3.5":
   "integrity" "sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.3.5.tgz"
   "version" "4.3.5"
@@ -6622,7 +6636,7 @@
   "resolved" "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.2.2.tgz"
   "version" "3.2.2"
 
-"webpack@*", "webpack@^5.1.0":
+"webpack@*", "webpack@^5.1.0", "webpack@>= 4":
   "integrity" "sha512-4KGc0+Ozi0aS3EaLNRvEppfZUer+CaORKqL6OBjDLZOPf9YfN8leagFzwe6/PoBdHFxc/utKArl8LMC0Ivtmdg=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.64.2.tgz"
   "version" "5.64.2"
@@ -6652,7 +6666,7 @@
     "watchpack" "^2.2.0"
     "webpack-sources" "^3.2.2"
 
-"webpack@>= 4", "webpack@5.64.1":
+"webpack@5.64.1":
   "integrity" "sha512-b4FHmRgaaAjP+aVOVz41a9Qa5SmkUPQ+u8FntTQ1roPHahSComB6rXnLwc976VhUY4CqTaLu5mCswuHiNhOfVw=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.64.1.tgz"
   "version" "5.64.1"
@@ -6702,16 +6716,7 @@
     "tr46" "~0.0.3"
     "webidl-conversions" "^3.0.0"
 
-"whatwg-url@^8.0.0":
-  "integrity" "sha512-gAojqb/m9Q8a5IV96E3fHJM70AzCkgt4uXYX2O7EmuyOnLrViCQlsEBmF9UQIu3/aeAIp2U17rtbpZWNntQqdg=="
-  "resolved" "https://registry.npmjs.org/whatwg-url/-/whatwg-url-8.7.0.tgz"
-  "version" "8.7.0"
-  dependencies:
-    "lodash" "^4.7.0"
-    "tr46" "^2.1.0"
-    "webidl-conversions" "^6.1.0"
-
-"whatwg-url@^8.5.0":
+"whatwg-url@^8.0.0", "whatwg-url@^8.5.0":
   "integrity" "sha512-gAojqb/m9Q8a5IV96E3fHJM70AzCkgt4uXYX2O7EmuyOnLrViCQlsEBmF9UQIu3/aeAIp2U17rtbpZWNntQqdg=="
   "resolved" "https://registry.npmjs.org/whatwg-url/-/whatwg-url-8.7.0.tgz"
   "version" "8.7.0"

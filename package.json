@@ -72,10 +72,9 @@
     "typescript": "^4.3.4"
   },
   "peerDependencies": {
-    "@nestjs/graphql": "*",
     "@nestjs/common": "*",
     "@nestjs/core": "*",
-    "@nestjs/cqrs": "*",
+    "@nestjs/graphql": "*",
     "@nestjs/platform-express": "*"
   },
   "jest": {
