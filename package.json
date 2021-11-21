@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PrestaShopCorp/nestjs-context.git"
+    "url": "https://github.com/kodeine/nestjs-context.git"
   },
   "keywords": [
     "nestjs",
