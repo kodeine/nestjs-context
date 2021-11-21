@@ -5,7 +5,11 @@
     "declaration": true,
     "removeComments": true,
     "noUnusedLocals": false,
-    "noLib": false,
+    // "noLib": false,
+    "lib": [                                  /* Specify library files to be included in the compilation. */
+      "es2018",
+      "esnext.asynciterable"
+    ],
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
